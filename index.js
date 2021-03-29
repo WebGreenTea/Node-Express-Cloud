@@ -1,5 +1,4 @@
 
-//location.replace("https://www.facebook.com/");
 require("dotenv").config();
 
 const express = require("express");
