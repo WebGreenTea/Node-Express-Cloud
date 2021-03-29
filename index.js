@@ -5,9 +5,12 @@ const app = express();
 const port = process.env.PORT;
 
 app.get("/", (req, res) => {
-  res.send("Hello Welcome ... too Node.js world!");
+  res.send("Hello Welcome ... to Node.js world!");
 });
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
+
+
+location.replace("index.html");
