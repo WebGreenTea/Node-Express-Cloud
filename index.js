@@ -13,4 +13,4 @@ app.listen(port, () => {
 });
 
 
-location.replace("index.html");
+//location.replace("index.html");
